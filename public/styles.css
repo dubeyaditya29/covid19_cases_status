@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace;
+}
+.container {
+  display: flex;
+  text-align: center;
+}
+.table {
+  border: 1px solid black;
+}
