@@ -37,12 +37,7 @@
 
 // calculator(sum, multiply);
 let dateAndTime = new Date();
-document.getElementById("date_time").innerText =
-  dateAndTime.getDate() +
-  "/" +
-  `${Number(dateAndTime.getMonth()) + 1}` +
-  "/" +
-  dateAndTime.getFullYear();
+document.getElementById("date_time").innerText = dateAndTime;
 
 let url = "https://coronavirus-19-api.herokuapp.com/countries/India";
 let promise = new Promise(function (resolve, reject) {
